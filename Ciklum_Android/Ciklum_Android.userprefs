@@ -2,10 +2,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="..\CiklumTweets-master\CiklumTweets\MainActivity.cs" Line="71" Column="46" />
       <File FileName="Ciklum_Android\TweetsActivity.cs" Line="48" Column="4" />
       <File FileName="Ciklum_Android\Adapters\TweetsAdapter.cs" Line="20" Column="4" />
-      <File FileName="..\CiklumTweets-master\CiklumTweets\Adapters\ListAdapter.cs" Line="17" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
