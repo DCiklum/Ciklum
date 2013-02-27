@@ -35,6 +35,8 @@ namespace Ciklum_Android
 			lwTweets = FindViewById<ListView> (Resource.Id.listTweets);
 			tweetsAdapter = new TweetsAdapter(this, new List<Tweet>());
 
+			lwTweets.Adapter = tweetsAdapter;
+
 			// Filling Tweets Activity in new thread
 			ThreadPool.QueueUserWorkItem(lt => FillingMainActivity());
 			// Filling Favorites Activity in main thread
@@ -47,6 +49,14 @@ namespace Ciklum_Android
 			CreateJTweetsArray (GetTwitterJSON ( 20, "ciklum" ));
 			lstTweets = CreateTweetList();
 
+			TweetsAdapter curAdapter = new TweetsAdapter(this, lstTweets);
+			
+			RunOnUiThread(() =>
+			              {
+				lwTweets.Adapter = curAdapter;
+				curAdapter.NotifyDataSetChanged();
+				lwTweets.InvalidateViews();
+			});
 
 			//Filling TweetsActivity
 

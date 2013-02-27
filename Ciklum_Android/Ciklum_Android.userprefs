@@ -1,16 +1,16 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\CiklumTweets-master\CiklumTweets\Adapters\ListAdapter.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="..\CiklumTweets-master\CiklumTweets\MainActivity.cs" Line="62" Column="43" />
-      <File FileName="Ciklum_Android\TweetsActivity.cs" Line="45" Column="34" />
-      <File FileName="..\CiklumTweets-master\TwitterRepository\TwitterManager.cs" Line="39" Column="1" />
-      <File FileName="..\CiklumTweets-master\CiklumTweets\Adapters\ListAdapter.cs" Line="1" Column="1" />
+      <File FileName="..\CiklumTweets-master\CiklumTweets\MainActivity.cs" Line="71" Column="46" />
+      <File FileName="Ciklum_Android\TweetsActivity.cs" Line="48" Column="4" />
+      <File FileName="Ciklum_Android\Adapters\TweetsAdapter.cs" Line="20" Column="4" />
+      <File FileName="..\CiklumTweets-master\CiklumTweets\Adapters\ListAdapter.cs" Line="17" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Ciklum__Android AndroidDeviceId-Debug="emulator-5554" />
+  <MonoDevelop.Ide.ItemProperties.Ciklum__Android AndroidDeviceId-Debug="emulator-5554" MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" />
 </Properties>

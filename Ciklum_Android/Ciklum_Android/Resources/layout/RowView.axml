@@ -11,10 +11,24 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/linearLayoutRow">
+        <RelativeLayout
+            android:id="@+id/relativeLayoutDate"
+            android:layout_width="78.7dp"
+            android:layout_height="fill_parent">
+            <TextView
+                android:text="Date"
+                android:id="@+id/textViewDate"
+                android:textColor="@android:color/white"
+                android:adjustViewBounds="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textStyle="bold" />
+        </RelativeLayout>
         <TextView
             android:text="Tweet"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:id="@+id/textViewMessage"
             android:textColor="@android:color/white"
             android:adjustViewBounds="true"
@@ -22,19 +36,4 @@
             android:layout_marginLeft="0.0dp"
             android:layout_marginRight="1.4dp" />
     </LinearLayout>
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/linearLayoutRow"
-        android:id="@+id/relativeLayoutDate">
-        <TextView
-            android:text="10/10/2012"
-            android:id="@+id/textViewDate"
-            android:textColor="@android:color/white"
-            android:adjustViewBounds="true"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:textStyle="bold" />
-    </RelativeLayout>
 </RelativeLayout>

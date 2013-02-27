@@ -59,14 +59,14 @@ namespace Ciklum_Android
 			// aapt resource value: 0x7f050001
 			public const int listTweets = 2131034113;
 			
+			// aapt resource value: 0x7f050003
+			public const int relativeLayoutDate = 2131034115;
+			
 			// aapt resource value: 0x7f050004
-			public const int relativeLayoutDate = 2131034116;
+			public const int textViewDate = 2131034116;
 			
 			// aapt resource value: 0x7f050005
-			public const int textViewDate = 2131034117;
-			
-			// aapt resource value: 0x7f050003
-			public const int textViewMessage = 2131034115;
+			public const int textViewMessage = 2131034117;
 			
 			private Id()
 			{
